@@ -1,4 +1,5 @@
-# 4. euler_4 ------------------------------
+# Euler_4 Solution  ------------------------------
+# https://projecteuler.net/problem=4
 euler_4 <- function(x){
   lower_bound <- 10^x
   upper_bound <- lower_bound*10-1
