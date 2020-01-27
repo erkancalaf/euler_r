@@ -1,4 +1,5 @@
-# 2. euler_2 ------------------------------
+# Euler_2 Solution ------------------------------
+# https://projecteuler.net/problem=2
 euler_2 <- function(x){
   num_1 <- 1
   num_2 <- 2
@@ -11,8 +12,8 @@ euler_2 <- function(x){
     num_2 <- result
     temp <- c(temp, result)
   }
-  retVal <- sum(temp[temp<x & temp %% 2 != 0])
-  return(retVal)
+  ret_val <- sum(temp[temp < x & temp %% 2 != 0])
+  return(ret_val)
 }
 
-sum(euler_2(4000000))
+euler_2(4000000)
