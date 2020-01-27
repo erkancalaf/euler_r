@@ -1,4 +1,5 @@
-# 3. euler_3 ------------------------------
+# Euler_3 Solution  ------------------------------
+# https://projecteuler.net/problem=3
 euler_3 <- function(x){
   result_factor <- c()
   i = 2
@@ -9,7 +10,7 @@ euler_3 <- function(x){
     }
     i = i+1
   }
-  return(result_factor)
+  return(max(result_factor))
 }
 
-max(euler_3(600851475143 ))
+euler_3(600851475143 )
